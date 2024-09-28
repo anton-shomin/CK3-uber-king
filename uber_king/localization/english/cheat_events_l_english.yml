@@ -1,0 +1,9 @@
+﻿l_english:
+ popadanets.t: "Popadanets Traits"
+ popadanets.d: "Do you want to add or remove the Popadanets traits?"
+ popadanets.a: "Add Popadanets traits"
+ popadanets.b: "Remove Popadanets traits"
+ popadanets.c: "Do nothing"
+ popadanets.tooltip.add: "This will add all Popadanets traits to your character."
+ popadanets.tooltip.remove: "This will remove all Popadanets traits from your character."
+ popadanets.tooltip.nothing: "Exit without changing traits."

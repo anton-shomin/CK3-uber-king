@@ -1,0 +1,9 @@
+﻿l_german:
+ popadanets.t: "Popadanets-Eigenschaften"
+ popadanets.d: "Möchten Sie die Popadanets-Eigenschaften hinzufügen oder entfernen?"
+ popadanets.a: "Popadanets-Eigenschaften hinzufügen"
+ popadanets.b: "Popadanets-Eigenschaften entfernen"
+ popadanets.c: "Nichts tun"
+ popadanets.tooltip.add: "Dies fügt Ihrem Charakter alle Popadanets-Eigenschaften hinzu."
+ popadanets.tooltip.remove: "Dies entfernt alle Popadanets-Eigenschaften von Ihrem Charakter."
+ popadanets.tooltip.nothing: "Beenden, ohne Eigenschaften zu ändern."

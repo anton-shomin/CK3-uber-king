@@ -1,0 +1,9 @@
+﻿l_french:
+ popadanets.t: "Traits de Popadanets"
+ popadanets.d: "Voulez-vous ajouter ou supprimer les traits de Popadanets ?"
+ popadanets.a: "Ajouter les traits de Popadanets"
+ popadanets.b: "Supprimer les traits de Popadanets"
+ popadanets.c: "Ne rien faire"
+ popadanets.tooltip.add: "Cela ajoutera tous les traits de Popadanets à votre personnage."
+ popadanets.tooltip.remove: "Cela supprimera tous les traits de Popadanets de votre personnage."
+ popadanets.tooltip.nothing: "Quitter sans changer de traits."

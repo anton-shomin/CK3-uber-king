@@ -1,0 +1,9 @@
+﻿l_spanish:
+ popadanets.t: "Rasgos de Popadanets"
+ popadanets.d: "¿Quieres añadir o eliminar los rasgos de Popadanets?"
+ popadanets.a: "Añadir rasgos de Popadanets"
+ popadanets.b: "Eliminar rasgos de Popadanets"
+ popadanets.c: "No hacer nada"
+ popadanets.tooltip.add: "Esto añadirá todos los rasgos de Popadanets a tu personaje."
+ popadanets.tooltip.remove: "Esto eliminará todos los rasgos de Popadanets de tu personaje."
+ popadanets.tooltip.nothing: "Salir sin cambiar los rasgos."

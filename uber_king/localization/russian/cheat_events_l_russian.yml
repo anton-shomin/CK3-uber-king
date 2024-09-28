@@ -1,0 +1,9 @@
+﻿l_russian:
+ popadanets.t: "Черты Попаданца"
+ popadanets.d: "Хотите добавить или удалить черты Попаданца?"
+ popadanets.a: "Добавить черты Попаданца"
+ popadanets.b: "Удалить черты Попаданца"
+ popadanets.c: "Ничего не делать"
+ popadanets.tooltip.add: "Это добавит все черты Попаданца вашему персонажу."
+ popadanets.tooltip.remove: "Это удалит все черты Попаданца у вашего персонажа."
+ popadanets.tooltip.nothing: "Выйти без изменения черт."

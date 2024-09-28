@@ -1,0 +1,237 @@
+popadanets_core_traits = {
+  desc = trait_popadanets_core_traits_desc
+  is_positive = yes 
+  potential = {
+    is_ai = no
+    is_ruler = yes
+  }
+  ai_rulers_use = no
+  category = fame
+  icon = blademaster.dds
+  health = 8
+  monthly_income_mult = 0.35
+  character_travel_speed = 55
+  stress_loss_mult = 0.7
+  parochial_opinion = 25
+  enemy_hostile_scheme_success_chance_add = -80
+  personal_scheme_power_mult = 0.85
+  enemy_hard_casualty_modifier = 0.75
+  no_water_crossing_penalty = yes
+  build_speed = -30
+	holding_build_speed = -30
+  build_gold_cost = -0.91
+  holding_build_gold_cost = -0.91
+  attraction_opinion = 80
+  no_prowess_loss_from_age = yes
+  stress_gain_mult = -100
+  genetic = no
+  good = yes
+  # Schemes
+	scheme_power = 1000
+	scheme_resistance = 1000
+	scheme_secrecy = 1000
+	scheme_success_chance = 1000
+	hostile_scheme_power_mult = 1000
+	hostile_scheme_power_add = 1000
+	scheme_secrecy = 1000
+	personal_scheme_power_add = 1000
+	personal_scheme_power_mult = 1000
+	hostile_scheme_resistance_mult = 1000
+	diplomacy_scheme_power = 1000
+	intrigue_scheme_power = 1000
+	scheme_discovery_chance_mult = 1000
+	max_personal_schemes_add = 10				
+	max_hostile_schemes_add = 10				
+	owned_hostile_scheme_success_chance_add	= 1000			
+	owned_personal_scheme_success_chance_add = 1000							
+	enemy_personal_scheme_success_chance_add = -1000
+	enemy_hostile_scheme_success_chance_add = -1000
+	murder_scheme_power_add = 1000
+	murder_scheme_power_mult = 1000
+	abduct_scheme_power_add = 1000
+	abduct_scheme_power_mult = 1000
+	befriend_scheme_power_add = 1000
+	befriend_scheme_power_mult = 1000
+	claim_throne_scheme_power_add = 1000
+	claim_throne_scheme_power_mult = 1000
+	convert_to_witchcraft_scheme_power_add = 1000
+	convert_to_witchcraft_scheme_power_mult = 1000
+	courting_scheme_power_add = 1000
+	courting_scheme_power_mult = 1000
+	elope_scheme_power_add = 1000
+	elope_scheme_power_mult = 1000
+	fabricate_hook_scheme_power_add = 1000
+	fabricate_hook_scheme_power_mult = 1000
+	seduce_scheme_power_add = 1000
+	seduce_scheme_power_mult = 1000
+	sway_scheme_power_add = 1000
+	sway_scheme_power_mult = 1000
+}
+
+terrain_master = {
+  desc = trait_terrain_master_desc
+  potential = {
+    is_ai = no
+    is_ruler = yes
+  }  
+  ai_rulers_use = no
+  category = commander
+  icon = blademaster.dds
+  forest_advantage = 50
+  taiga_advantage = 50
+  hills_advantage = 50
+  jungle_advantage = 50
+  enemy_terrain_advantage = 50
+  plains_advantage = 50
+  farmlands_advantage = 50
+  hills_advantage = 50
+  mountains_advantage = 50
+  desert_advantage = 50
+  desert_mountains_advantage = 50
+  oasis_advantage = 50 
+  movement_speed = 1.5
+  naval_movement_speed_mult = 1
+}
+
+cavalry_master = {
+  desc = trait_cavalry_master_desc
+  potential = {
+    is_ai = no
+    is_ruler = yes
+  }  
+  ai_rulers_use = no
+  category = commander
+  icon = blademaster.dds
+  #light_cavalry
+  light_cavalry_toughness_mult = 100
+  light_cavalry_damage_mult = 700
+  light_cavalry_siege_value_mult = 0.5
+  light_cavalry_pursuit_add = 400
+  light_cavalry_screen_add = 100
+  
+  #heavy_cavalry
+  heavy_cavalry_toughness_mult = 100
+  heavy_cavalry_damage_mult = 700
+  heavy_cavalry_pursuit_add = 400
+  heavy_cavalry_screen_add = 100
+  heavy_cavalry_siege_value_mult = 0.5
+
+  #archer_cavalry
+  archer_cavalry_siege_value_mult = 0.5
+  archer_cavalry_toughness_mult = 100
+  archer_cavalry_damage_mult = 700
+  archer_cavalry_pursuit_add = 400
+  archer_cavalry_screen_add = 100
+}
+
+infantry_expert = {
+  desc = trait_infantry_expert_desc
+  potential = {
+    is_ai = no
+    is_ruler = yes
+  }  
+  ai_rulers_use = no
+  category = commander
+  icon = blademaster.dds
+  #archers
+  archer_siege_value_mult = 0.5
+  archer_toughness_mult = 1000
+  archer_damage_mult = 700
+  archer_pursuit_add = 400
+  archer_screen_add = 100
+
+  #skirmishers
+  skirmisher_siege_value_mult = 0.5
+  skirmisher_toughness_mult = 100
+  skirmisher_damage_mult = 700
+  skirmisher_pursuit_add = 400
+  skirmisher_screen_add = 100
+
+  #pikemen
+  pikemen_siege_value_mult = 0.5
+  pikemen_toughness_mult = 100
+  pikemen_damage_mult = 700
+  pikemen_pursuit_add = 400
+  pikemen_screen_add = 100
+
+  #heavy_infantry
+  heavy_infantry_siege_value_mult = 0.5
+  heavy_infantry_toughness_mult = 100
+  heavy_infantry_damage_mult = 700
+  heavy_infantry_pursuit_add = 400
+  heavy_infantry_screen_add = 100
+
+  #crossbowmen
+  crossbowmen_siege_value_mult = 0.5
+  crossbowmen_toughness_mult = 100
+  crossbowmen_damage_mult = 700
+  crossbowmen_pursuit_add = 400
+  crossbowmen_screen_add = 100
+}
+
+special_units_commander = {
+  ai_rulers_use = no
+  desc = trait_special_units_commander_desc
+  potential = {
+    is_ai = no
+    is_ruler = yes
+  }  
+  category = commander
+  icon = blademaster.dds
+  #siege_weapon
+  siege_weapon_toughness_mult = 100
+  siege_weapon_damage_mult = 700
+  siege_weapon_pursuit_add = 400
+  siege_weapon_screen_add = 100
+
+  #camel_cavalry
+  camel_cavalry_toughness_mult = 100
+  camel_cavalry_damage_mult = 700
+  camel_cavalry_pursuit_add = 400
+  camel_cavalry_screen_add = 100
+
+  #elephant_cavalry
+  elephant_cavalry_toughness_mult = 100
+  elephant_cavalry_damage_mult = 700
+  elephant_cavalry_pursuit_add = 400
+  elephant_cavalry_screen_add = 100
+}
+
+warfare_genius = {
+  ai_rulers_use = no
+  potential = {
+    is_ai = no
+    is_ruler = yes
+  }  
+  desc = trait_warfare_genius_desc
+  category = commander
+  icon = blademaster.dds
+  mercenary_hire_cost_mult = -0.9 
+  hard_casualty_modifier = -0.99
+  enemy_hard_casualty_modifier = 0.31
+  garrison_size = 3
+  supply_duration = 6
+  siege_phase_time = -0.8
+  supply_limit_mult = 1
+	supply_capacity_mult = 1
+  additional_fort_level = 21
+  siege_morale_loss = 1
+  retreat_losses = -1
+  raid_speed = 1
+	min_combat_roll = 20
+	max_combat_roll = 40
+	siege_weapon_max_size_mult = 3
+	hostile_county_attrition = -1
+  defender_advantage = 100
+	attacker_advantage = 100
+  levy_size = 100
+	levy_reinforcement_rate = 10000
+	levy_reinforcement_rate_same_faith = 10000
+	levy_reinforcement_rate_different_faith = 10000
+	levy_reinforcement_rate_even_if_baron = 10000
+	levy_reinforcement_rate_same_faith_even_if_baron = 10000
+	levy_reinforcement_rate_different_faith_even_if_baron = 10000
+	levy_reinforcement_rate_friendly_territory = 10000
+	knight_effectiveness_mult = 10000
+	men_at_arms_limit = 50000
+}
