@@ -18,14 +18,7 @@ popadanets_traits.0001 = {
 
     option = {
         name = popadanets.b
-        custom_tooltip = popadanets.tooltip.remove
-        trigger = {
-            OR = {
-                has_trait = popadanets_core_traits
-
-                has_trait = warfare_genius
-            }
-        }
+        custom_tooltip = popadanets.tooltip.remove    
         remove_trait = popadanets_core_traits
         remove_trait = warfare_genius
     }
