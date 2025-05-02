@@ -200,31 +200,3 @@ warfare_genius = {
 	knight_effectiveness_mult = 10000
 	men_at_arms_limit = 50000
 }
-
-
-
-
-
-special_units_commander = {
-  ai_rulers_use = no
-  desc = trait_special_units_commander_desc
-  potential = {
-    is_ai = no
-    is_ruler = yes
-  }
-  category = commander
-  icon = blademaster.dds
-
-}
-
-warfare_genius = {
-  ai_rulers_use = no
-  potential = {
-    is_ai = no
-    is_ruler = yes
-  }
-  desc = trait_warfare_genius_desc
-  category = commander
-  icon = blademaster.dds
-
-}
