@@ -8,20 +8,12 @@ popadanets_traits.0001 = {
         custom_tooltip = popadanets.tooltip.add
         trigger = {
             NOR = {
-                has_trait = popadanets_core_traits
-                has_trait = terrain_master
-                has_trait = cavalry_master
-                has_trait = infantry_expert
-                has_trait = special_units_commander
                 has_trait = warfare_genius
+                has_trait = popadanets_core_traits
             }
         }
-        add_trait = popadanets_core_traits
-        add_trait = terrain_master
-        add_trait = cavalry_master
-        add_trait = infantry_expert
-        add_trait = special_units_commander
         add_trait = warfare_genius
+        add_trait = popadanets_core_traits
     }
 
     option = {
@@ -30,18 +22,11 @@ popadanets_traits.0001 = {
         trigger = {
             OR = {
                 has_trait = popadanets_core_traits
-                has_trait = terrain_master
-                has_trait = cavalry_master
-                has_trait = infantry_expert
-                has_trait = special_units_commander
+
                 has_trait = warfare_genius
             }
         }
         remove_trait = popadanets_core_traits
-        remove_trait = terrain_master
-        remove_trait = cavalry_master
-        remove_trait = infantry_expert
-        remove_trait = special_units_commander
         remove_trait = warfare_genius
     }
 

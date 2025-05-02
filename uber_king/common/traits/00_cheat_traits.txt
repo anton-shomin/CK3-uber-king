@@ -1,6 +1,6 @@
 popadanets_core_traits = {
   desc = trait_popadanets_core_traits_desc
-  is_positive = yes 
+  is_positive = yes
   potential = {
     is_ai = no
     is_ruler = yes
@@ -40,10 +40,10 @@ popadanets_core_traits = {
 	diplomacy_scheme_power = 1000
 	intrigue_scheme_power = 1000
 	scheme_discovery_chance_mult = 1000
-	max_personal_schemes_add = 10				
-	max_hostile_schemes_add = 10				
-	owned_hostile_scheme_success_chance_add	= 1000			
-	owned_personal_scheme_success_chance_add = 1000							
+	max_personal_schemes_add = 10
+	max_hostile_schemes_add = 10
+	owned_hostile_scheme_success_chance_add	= 1000
+	owned_personal_scheme_success_chance_add = 1000
 	enemy_personal_scheme_success_chance_add = -1000
 	enemy_hostile_scheme_success_chance_add = -1000
 	murder_scheme_power_add = 1000
@@ -68,15 +68,17 @@ popadanets_core_traits = {
 	sway_scheme_power_mult = 1000
 }
 
-terrain_master = {
-  desc = trait_terrain_master_desc
+warfare_genius = {
+  desc = trait_warfare_genius_desc
   potential = {
     is_ai = no
     is_ruler = yes
-  }  
+  }
   ai_rulers_use = no
   category = commander
   icon = blademaster.dds
+
+  #terrain_master
   forest_advantage = 50
   taiga_advantage = 50
   hills_advantage = 50
@@ -88,27 +90,18 @@ terrain_master = {
   mountains_advantage = 50
   desert_advantage = 50
   desert_mountains_advantage = 50
-  oasis_advantage = 50 
+  oasis_advantage = 50
   movement_speed = 1.5
   naval_movement_speed_mult = 1
-}
 
-cavalry_master = {
-  desc = trait_cavalry_master_desc
-  potential = {
-    is_ai = no
-    is_ruler = yes
-  }  
-  ai_rulers_use = no
-  category = commander
-  icon = blademaster.dds
+  #cavalry_master
   #light_cavalry
   light_cavalry_toughness_mult = 100
   light_cavalry_damage_mult = 700
   light_cavalry_siege_value_mult = 0.5
   light_cavalry_pursuit_add = 400
   light_cavalry_screen_add = 100
-  
+
   #heavy_cavalry
   heavy_cavalry_toughness_mult = 100
   heavy_cavalry_damage_mult = 700
@@ -122,17 +115,8 @@ cavalry_master = {
   archer_cavalry_damage_mult = 700
   archer_cavalry_pursuit_add = 400
   archer_cavalry_screen_add = 100
-}
 
-infantry_expert = {
-  desc = trait_infantry_expert_desc
-  potential = {
-    is_ai = no
-    is_ruler = yes
-  }  
-  ai_rulers_use = no
-  category = commander
-  icon = blademaster.dds
+  #infantry_expert
   #archers
   archer_siege_value_mult = 0.5
   archer_toughness_mult = 1000
@@ -167,18 +151,9 @@ infantry_expert = {
   crossbowmen_damage_mult = 700
   crossbowmen_pursuit_add = 400
   crossbowmen_screen_add = 100
-}
 
-special_units_commander = {
-  ai_rulers_use = no
-  desc = trait_special_units_commander_desc
-  potential = {
-    is_ai = no
-    is_ruler = yes
-  }  
-  category = commander
-  icon = blademaster.dds
-  #siege_weapon
+  #special_units_commander
+   #siege_weapon
   siege_weapon_toughness_mult = 100
   siege_weapon_damage_mult = 700
   siege_weapon_pursuit_add = 400
@@ -195,18 +170,8 @@ special_units_commander = {
   elephant_cavalry_damage_mult = 700
   elephant_cavalry_pursuit_add = 400
   elephant_cavalry_screen_add = 100
-}
 
-warfare_genius = {
-  ai_rulers_use = no
-  potential = {
-    is_ai = no
-    is_ruler = yes
-  }  
-  desc = trait_warfare_genius_desc
-  category = commander
-  icon = blademaster.dds
-  mercenary_hire_cost_mult = -0.9 
+  mercenary_hire_cost_mult = -0.9
   hard_casualty_modifier = -0.99
   enemy_hard_casualty_modifier = 0.31
   garrison_size = 3
@@ -234,4 +199,32 @@ warfare_genius = {
 	levy_reinforcement_rate_friendly_territory = 10000
 	knight_effectiveness_mult = 10000
 	men_at_arms_limit = 50000
+}
+
+
+
+
+
+special_units_commander = {
+  ai_rulers_use = no
+  desc = trait_special_units_commander_desc
+  potential = {
+    is_ai = no
+    is_ruler = yes
+  }
+  category = commander
+  icon = blademaster.dds
+
+}
+
+warfare_genius = {
+  ai_rulers_use = no
+  potential = {
+    is_ai = no
+    is_ruler = yes
+  }
+  desc = trait_warfare_genius_desc
+  category = commander
+  icon = blademaster.dds
+
 }
