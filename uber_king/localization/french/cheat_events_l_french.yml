@@ -1,9 +1,31 @@
-﻿l_french:
- popadanets.t: "Traits de Popadanets"
- popadanets.d: "Voulez-vous ajouter ou supprimer les traits de Popadanets ?"
- popadanets.a: "Ajouter les traits de Popadanets"
- popadanets.b: "Supprimer les traits de Popadanets"
- popadanets.c: "Ne rien faire"
- popadanets.tooltip.add: "Cela ajoutera tous les traits de Popadanets à votre personnage."
- popadanets.tooltip.remove: "Cela supprimera tous les traits de Popadanets de votre personnage."
- popadanets.tooltip.nothing: "Quitter sans changer de traits."
+l_french:
+  # Localization for Popadanets traits
+  popadanets.t: "Traits de l'Étranger d'un Autre Monde"
+  popadanets.d: "Voulez-vous ajouter ou supprimer les traits de l'Étranger d'un Autre Monde ?"
+  popadanets.a: "Ajouter les traits de l'Étranger d'un Autre Monde"
+  popadanets.b: "Supprimer les traits de l'Étranger d'un Autre Monde"
+  popadanets.tooltip.add: "Cela ajoutera tous les traits de l'Étranger d'un Autre Monde à votre personnage."
+  popadanets.tooltip.remove: "Cela supprimera tous les traits de l'Étranger d'un Autre Monde de votre personnage."
+
+  # Localization for Warfare Genius trait
+  warfare_genious_traits.t: "Trait de Génie militaire"
+  warfare_genious_traits.d: "Voulez-vous ajouter ou supprimer le trait Génie militaire ?"
+  warfare_genious_traits.a: "Ajouter le trait Génie militaire"
+  warfare_genious_traits.b: "Supprimer le trait Génie militaire"
+  warfare_genious_traits.tooltip.add: "Cela ajoutera le trait Génie militaire à votre personnage."
+  warfare_genious_traits.tooltip.remove: "Cela supprimera le trait Génie militaire de votre personnage."
+
+  # Localization for Combat Genius trait
+  combat_genious_traits.t: "Trait de Génie du combat"
+  combat_genious_traits.d: "Voulez-vous ajouter ou supprimer le trait Génie du combat ?"
+  combat_genious_traits.a: "Ajouter le trait Génie du combat"
+  combat_genious_traits.b: "Supprimer le trait Génie du combat"
+  combat_genious_traits.tooltip.add: "Cela ajoutera le trait Génie du combat à votre personnage."
+  combat_genious_traits.tooltip.remove: "Cela supprimera le trait Génie du combat de votre personnage."
+
+  combat_genius_realm.t: "Royaume du Génie du combat"
+  combat_genius_realm.d: "Voulez-vous ajouter ou supprimer le modificateur 'Royaume du Génie du combat' ?"
+  combat_genius_realm.a: "Ajouter le modificateur 'Royaume du Génie du combat'"
+  combat_genius_realm.b: "Supprimer le modificateur 'Royaume du Génie du combat'"
+  combat_genius_realm.tooltip.add: "Cela ajoutera le modificateur 'Royaume du Génie du combat' à votre royaume."
+  combat_genius_realm.tooltip.remove: "Cela supprimera le modificateur 'Royaume du Génie du combat' de votre royaume."

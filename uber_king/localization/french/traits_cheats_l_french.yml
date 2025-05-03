@@ -1,5 +1,9 @@
-﻿l_french:
- trait_popadanets_core_traits: "Le Voyageur"
- trait_popadanets_core_traits_desc: ""Je n'ai pas eu de chance de naître à ce siècle", pensais-je souvent. Mes intérêts pour l'histoire, les arts martiaux et l'escrime, ainsi que mes convictions religieuses, m'empêchaient de trouver ma place dans ce monde. Un bon emploi me permettait de dépenser beaucoup pour mes passe-temps. L'école de la vie, les années d'adolescence remplies de bagarres et de coups de couteau, la capacité d'organiser n'importe quel travail, la ruse, les compétences en hypnose, la passion pour le MMA et l'escrime historique - tout cela m'aidera dans le nouveau monde."
- trait_warfare_genius: "Génie de la Guerre"
- trait_warfare_genius_desc: "L'esprit stratégique de ce personnage lui permet de trouver des solutions inattendues dans les situations militaires les plus complexes."
+l_french:
+  trait_popadanets_core_traits: "Étranger d'un Autre Monde"
+  trait_popadanets_core_traits_desc: "'J'ai eu la malchance de naître dans ce siècle', pensais-je souvent. Mes intérêts pour l'histoire, les arts martiaux et l'escrime, ainsi que mes opinions religieuses, rendaient difficile mon adaptation à ce monde. Un travail décent me permettait de m'adonner à mes passions. Une vie rude, des années d'adolescence remplies de bagarres et de coups de couteau, la capacité d'organiser n'importe quoi, la ruse, des compétences en hypnose, une passion pour le MMA et l'escrime historique - tout cela me sera utile dans ce nouveau monde."
+
+  trait_combat_genious: "Génie du combat"
+  trait_combat_genious_desc: "Ce personnage s'adapte superbement à n'importe quel terrain, tirant le maximum d'avantages de l'environnement."
+
+  trait_warfare_genius: "Génie militaire"
+  trait_warfare_genius_desc: "L'esprit stratégique de ce personnage lui permet de trouver des solutions inattendues dans les situations militaires les plus difficiles."

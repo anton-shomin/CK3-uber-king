@@ -78,7 +78,48 @@ warfare_genius = {
   category = commander
   icon = blademaster.dds
 
-  #terrain_master
+  mercenary_hire_cost_mult = -0.9
+  levy_size = 100
+  levy_reinforcement_rate = 10000
+  levy_reinforcement_rate_same_faith = 10000
+  levy_reinforcement_rate_different_faith = 10000
+  levy_reinforcement_rate_even_if_baron = 10000
+  levy_reinforcement_rate_same_faith_even_if_baron = 10000
+  levy_reinforcement_rate_different_faith_even_if_baron = 10000
+  levy_reinforcement_rate_friendly_territory = 10000
+  knight_effectiveness_mult = 10000
+  men_at_arms_limit = 50000
+}
+
+combat_genious = {
+  desc = trait_combat_genius_desc
+  potential = {
+    is_ai = no
+    is_ruler = no
+  }
+  ai_rulers_use = no
+  category = commander
+  icon = blademaster.dds
+
+  hard_casualty_modifier = -0.99
+  enemy_hard_casualty_modifier = 0.31
+  garrison_size = 3
+  supply_duration = 6
+  siege_phase_time = -0.8
+  supply_limit_mult = 1
+  supply_capacity_mult = 1
+  additional_fort_level = 21
+  siege_morale_loss = 1
+  retreat_losses = -1
+  raid_speed = 1
+  min_combat_roll = 20
+  max_combat_roll = 40
+  siege_weapon_max_size_mult = 3
+  hostile_county_attrition = -1
+  defender_advantage = 100
+  attacker_advantage = 100
+
+    #terrain_master
   forest_advantage = 50
   taiga_advantage = 50
   hills_advantage = 50
@@ -170,33 +211,4 @@ warfare_genius = {
   elephant_cavalry_damage_mult = 700
   elephant_cavalry_pursuit_add = 400
   elephant_cavalry_screen_add = 100
-
-  mercenary_hire_cost_mult = -0.9
-  hard_casualty_modifier = -0.99
-  enemy_hard_casualty_modifier = 0.31
-  garrison_size = 3
-  supply_duration = 6
-  siege_phase_time = -0.8
-  supply_limit_mult = 1
-	supply_capacity_mult = 1
-  additional_fort_level = 21
-  siege_morale_loss = 1
-  retreat_losses = -1
-  raid_speed = 1
-	min_combat_roll = 20
-	max_combat_roll = 40
-	siege_weapon_max_size_mult = 3
-	hostile_county_attrition = -1
-  defender_advantage = 100
-	attacker_advantage = 100
-  levy_size = 100
-	levy_reinforcement_rate = 10000
-	levy_reinforcement_rate_same_faith = 10000
-	levy_reinforcement_rate_different_faith = 10000
-	levy_reinforcement_rate_even_if_baron = 10000
-	levy_reinforcement_rate_same_faith_even_if_baron = 10000
-	levy_reinforcement_rate_different_faith_even_if_baron = 10000
-	levy_reinforcement_rate_friendly_territory = 10000
-	knight_effectiveness_mult = 10000
-	men_at_arms_limit = 50000
 }

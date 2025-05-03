@@ -1,0 +1,30 @@
+combat_genius_realm = {
+    icon = combat_genius
+
+    # Direct realm-wide modifiers
+    hard_casualty_modifier = -0.99
+    enemy_hard_casualty_modifier = 0.31
+    garrison_size = 3
+    supply_duration = 6
+    siege_phase_time = -0.8
+    supply_limit_mult = 1
+    supply_capacity_mult = 1
+    additional_fort_level = 21
+    siege_morale_loss = 1
+    retreat_losses = -1
+    raid_speed = 1
+    hostile_county_attrition = -1
+    movement_speed = 1.5
+    naval_movement_speed_mult = 1
+
+    # Generic army modifiers (converting unit-specific ones)
+    army_damage_mult = 7.0
+    army_toughness_mult = 10.0
+    army_pursuit_add = 400
+    army_screen_add = 100
+    army_siege_value_mult = 0.5
+
+    # General advantage modifiers
+    defender_advantage = 100
+    attacker_advantage = 100
+}

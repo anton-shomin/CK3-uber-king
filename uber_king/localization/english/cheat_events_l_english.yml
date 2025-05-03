@@ -1,9 +1,24 @@
-﻿l_english:
- popadanets.t: "Popadanets Traits"
- popadanets.d: "Do you want to add or remove the Popadanets traits?"
- popadanets.a: "Add Popadanets traits"
- popadanets.b: "Remove Popadanets traits"
- popadanets.c: "Do nothing"
- popadanets.tooltip.add: "This will add all Popadanets traits to your character."
- popadanets.tooltip.remove: "This will remove all Popadanets traits from your character."
- popadanets.tooltip.nothing: "Exit without changing traits."
+l_english:
+  # Localization for Popadanets traits
+  popadanets.t: "Otherworldly Stranger Traits"
+  popadanets.d: "Do you want to add or remove Otherworldly Stranger traits?"
+  popadanets.a: "Add Otherworldly Stranger traits"
+  popadanets.b: "Remove Otherworldly Stranger traits"
+  popadanets.tooltip.add: "This will add all Otherworldly Stranger traits to your character."
+  popadanets.tooltip.remove: "This will remove all Otherworldly Stranger traits from your character."
+
+  # Localization for Warfare Genius trait
+  warfare_genious_traits.t: "Warfare Genius Trait"
+  warfare_genious_traits.d: "Do you want to add or remove the Warfare Genius trait?"
+  warfare_genious_traits.a: "Add Warfare Genius trait"
+  warfare_genious_traits.b: "Remove Warfare Genius trait"
+  warfare_genious_traits.tooltip.add: "This will add the Warfare Genius trait to your character."
+  warfare_genious_traits.tooltip.remove: "This will remove the Warfare Genius trait from your character."
+
+  # Localization for Combat Genius trait
+  combat_genious_traits.t: "Combat Genius Trait"
+  combat_genious_traits.d: "Do you want to add or remove the Combat Genius trait?"
+  combat_genious_traits.a: "Add Combat Genius trait"
+  combat_genious_traits.b: "Remove Combat Genius trait"
+  combat_genious_traits.tooltip.add: "This will add the Combat Genius trait to your character."
+  combat_genious_traits.tooltip.remove: "This will remove the Combat Genius trait from your character."

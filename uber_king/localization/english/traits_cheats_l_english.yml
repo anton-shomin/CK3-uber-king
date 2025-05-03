@@ -1,5 +1,9 @@
-﻿l_english:
-  trait_popadanets_core_traits: "Time Traveler"
-  trait_popadanets_core_traits_desc: "I often thought, 'I was unlucky to be born in this century.' My interests in history, martial arts, and fencing, along with my religious views, made it difficult for me to find my place in this world. A good job allowed me to spend a lot on my hobbies. The harsh school of life, teenage years filled with fights and knife play, the ability to organize any work, cunning, hypnosis skills, and a passion for MMA and historical fencing - all of this will help me in the new world."
-  trait_warfare_genius: "Warfare Genius"
-  trait_warfare_genius_desc: "The strategic mind of this character allows them to find unexpected solutions in the most complex military situations."
+l_english:
+  trait_popadanets_core_traits: "Otherworldly Stranger"
+  trait_popadanets_core_traits_desc: "'I was unlucky to be born in this century,' I often thought. My interests in history, martial arts, and fencing, along with my religious views, made it hard to fit into that world. A decent job did allow me to indulge my passions. A harsh life, teenage years filled with brawls and knife fights, the ability to organize anything, cunning, hypnosis skills, a passion for MMA and historical fencing – all this will serve me well in this new world."
+
+  trait_combat_genious: "Combat Genius"
+  trait_combat_genious_desc: "This character adapts superbly to any terrain, gaining maximum advantage from the environment."
+
+  trait_warfare_genius: "Military Genius"
+  trait_warfare_genius_desc: "This character's strategic mind allows them to find unexpected solutions in the most difficult military situations."
