@@ -1,4 +1,6 @@
-popadanets_traits.0001 = {
+namespace = cheats
+
+cheats.1 = {
     type = character_event
     title = popadanets.t
     desc = popadanets.d
@@ -21,14 +23,14 @@ popadanets_traits.0001 = {
     }
 }
 
-cheat_warfare_genious_traits.0001 = {
+cheats.2 = {
     type = character_event
-    title = warfare_genious_traits.t
-    desc = warfare_genious_traits.d
+    title = warfare_genius_traits.t
+    desc = warfare_genius_traits.d
 
     option = {
-        name = warfare_genious_traits.a
-        custom_tooltip = warfare_genious_traits.tooltip.add
+        name = warfare_genius_traits.a
+        custom_tooltip = warfare_genius_traits.tooltip.add
         trigger = {
             NOR = {
                 has_trait = warfare_genius
@@ -38,20 +40,20 @@ cheat_warfare_genious_traits.0001 = {
     }
 
     option = {
-        name = warfare_genious_traits.b
-        custom_tooltip = warfare_genious_traits.tooltip.remove
+        name = warfare_genius_traits.b
+        custom_tooltip = warfare_genius_traits.tooltip.remove
         remove_trait = warfare_genius
     }
 }
 
-cheat_combat_genious_traits.0001 = {
+cheats.3 = {
     type = character_event
-    title = combat_genious_traits.t
-    desc = combat_genious_traits.d
+    title = combat_genius_traits.t
+    desc = combat_genius_traits.d
 
     option = {
-        name = combat_genious_traits.a
-        custom_tooltip = combat_genious_traits.tooltip.add
+        name = combat_genius_traits.a
+        custom_tooltip = combat_genius_traits.tooltip.add
         trigger = {
             NOR = {
                 has_trait = combat_genius
@@ -61,32 +63,41 @@ cheat_combat_genious_traits.0001 = {
     }
 
     option = {
-        name = combat_genious_traits.b
-        custom_tooltip = combat_genious_traits.tooltip.remove
+        name = combat_genius_traits.b
+        custom_tooltip = combat_genius_traits.tooltip.remove
         remove_trait = combat_genius
     }
 }
 
-cheat_combat_genius_realm.0001 = {
+cheats.4 = {
     type = character_event
-    title = combat_genius_realm.t
-    desc = combat_genius_realm.d
+    title = county_combat_genius_modifier.t
+    desc = county_combat_genius_modifier.d
 
     option = {
-        name = combat_genius_realm.a
-        custom_tooltip = combat_genius_realm.tooltip.add
+        name = county_combat_genius_modifier.a
+        custom_tooltip = county_combat_genius_modifier.tooltip.add
         trigger = {
-            NOT = { has_realm_modifier = combat_genius_realm }
+            NOT = { has_realm_modifier = county_combat_genius_modifier }
         }
-        add_realm_modifier = {
-            modifier = combat_genius_realm
-            years = 100  # Or use 'duration = -1' for permanent
-        }
+        every_held_county = {
+          custom = custom.every_held_county
+          add_county_modifier = {
+            modifier = county_combat_genius_modifier
+            years = -1
+             }
+        }       
     }
 
     option = {
-        name = combat_genius_realm.b
-        custom_tooltip = combat_genius_realm.tooltip.remove
-        remove_realm_modifier = combat_genius_realm
+        name = county_combat_genius_modifier.b
+        custom_tooltip = county_combat_genius_modifier.tooltip.remove
+        every_held_county = {
+          custom = custom.every_held_county
+          remove_county_modifier = county_combat_genius_modifier
+        }
+        
     }
 }
+
+

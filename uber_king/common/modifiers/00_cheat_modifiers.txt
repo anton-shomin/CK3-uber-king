@@ -1,7 +1,7 @@
-combat_genius_realm = {
-    icon = combat_genius
-
-    # Direct realm-wide modifiers
+county_combat_genius_modifier = {
+    icon = war
+   
+     # Direct realm-wide modifiers
     hard_casualty_modifier = -0.99
     enemy_hard_casualty_modifier = 0.31
     garrison_size = 3
@@ -17,14 +17,97 @@ combat_genius_realm = {
     movement_speed = 1.5
     naval_movement_speed_mult = 1
 
-    # Generic army modifiers (converting unit-specific ones)
-    army_damage_mult = 7.0
-    army_toughness_mult = 10.0
-    army_pursuit_add = 400
-    army_screen_add = 100
-    army_siege_value_mult = 0.5
+    #terrain_master
+    forest_advantage = 50
+    taiga_advantage = 50
+    hills_advantage = 50
+    jungle_advantage = 50
+    
+    plains_advantage = 50
+    farmlands_advantage = 50
+    hills_advantage = 50
+    mountains_advantage = 50
+    desert_advantage = 50
+    desert_mountains_advantage = 50
+    oasis_advantage = 50
+    movement_speed = 1.5
 
-    # General advantage modifiers
-    defender_advantage = 100
-    attacker_advantage = 100
-}
+
+    #cavalry_master
+    #light_cavalry
+    light_cavalry_toughness_mult = 100
+    light_cavalry_damage_mult = 700
+    light_cavalry_siege_value_mult = 0.5
+    light_cavalry_pursuit_add = 400
+    light_cavalry_screen_add = 100
+
+    #heavy_cavalry
+    heavy_cavalry_toughness_mult = 100
+    heavy_cavalry_damage_mult = 700
+    heavy_cavalry_pursuit_add = 400
+    heavy_cavalry_screen_add = 100
+    heavy_cavalry_siege_value_mult = 0.5
+
+    #archer_cavalry
+    archer_cavalry_siege_value_mult = 0.5
+    archer_cavalry_toughness_mult = 100
+    archer_cavalry_damage_mult = 700
+    archer_cavalry_pursuit_add = 400
+    archer_cavalry_screen_add = 100
+
+    #infantry_expert
+    #archers
+    archer_siege_value_mult = 0.5
+    archer_toughness_mult = 1000
+    archer_damage_mult = 700
+    archer_pursuit_add = 400
+    archer_screen_add = 100
+
+    #skirmishers
+    skirmisher_siege_value_mult = 0.5
+    skirmisher_toughness_mult = 100
+    skirmisher_damage_mult = 700
+    skirmisher_pursuit_add = 400
+    skirmisher_screen_add = 100
+
+    #pikemen
+    pikemen_siege_value_mult = 0.5
+    pikemen_toughness_mult = 100
+    pikemen_damage_mult = 700
+    pikemen_pursuit_add = 400
+    pikemen_screen_add = 100
+
+    #heavy_infantry
+    heavy_infantry_siege_value_mult = 0.5
+    heavy_infantry_toughness_mult = 100
+    heavy_infantry_damage_mult = 700
+    heavy_infantry_pursuit_add = 400
+    heavy_infantry_screen_add = 100
+
+    #crossbowmen
+    crossbowmen_siege_value_mult = 0.5
+    crossbowmen_toughness_mult = 100
+    crossbowmen_damage_mult = 700
+    crossbowmen_pursuit_add = 400
+    crossbowmen_screen_add = 100
+
+    #special_units_commander
+    #siege_weapon
+    siege_weapon_toughness_mult = 100
+    siege_weapon_damage_mult = 700
+    siege_weapon_pursuit_add = 400
+    siege_weapon_screen_add = 100
+
+    #camel_cavalry
+    camel_cavalry_toughness_mult = 100
+    camel_cavalry_damage_mult = 700
+    camel_cavalry_pursuit_add = 400
+    camel_cavalry_screen_add = 100
+
+    #elephant_cavalry
+    elephant_cavalry_toughness_mult = 100
+    elephant_cavalry_damage_mult = 700
+    elephant_cavalry_pursuit_add = 400
+    elephant_cavalry_screen_add = 100
+    }
+

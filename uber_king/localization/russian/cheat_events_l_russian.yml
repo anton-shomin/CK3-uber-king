@@ -1,4 +1,4 @@
-l_russian:
+﻿l_russian:
   # Localization for Popadanets traits (Provided Example)
   popadanets.t: "Черты Попаданца"
   popadanets.d: "Хотите добавить или удалить черты Попаданца?"
@@ -8,24 +8,25 @@ l_russian:
   popadanets.tooltip.remove: "Это удалит все черты Попаданца у вашего персонажа."
 
   # Localization for Warfare Genius trait (Updated Keys)
-  warfare_genious_traits.t: "Черты Военного гения"
-  warfare_genious_traits.d: "Хотите добавить или удалить черту Военный гений?"
-  warfare_genious_traits.a: "Добавить черту Военный гений"
-  warfare_genious_traits.b: "Удалить черту Военный гений"
-  warfare_genious_traits.tooltip.add: "Это добавит черту Военный гений вашему персонажу."
-  warfare_genious_traits.tooltip.remove: "Это удалит черту Военный гений у вашего персонажа."
+  warfare_genius_traits.t: "Черты Военного гения"
+  warfare_genius_traits.d: "Хотите добавить или удалить черту Военный гений?"
+  warfare_genius_traits.a: "Добавить черту Военный гений"
+  warfare_genius_traits.b: "Удалить черту Военный гений"
+  warfare_genius_traits.tooltip.add: "Это добавит черту Военный гений вашему персонажу."
+  warfare_genius_traits.tooltip.remove: "Это удалит черту Военный гений у вашего персонажа."
 
   # Localization for Combat Genius trait (Updated Keys)
-  combat_genious_traits.t: "Черты Гения боя"
-  combat_genious_traits.d: "Хотите добавить или удалить черту Гений боя?"
-  combat_genious_traits.a: "Добавить черту Гений боя"
-  combat_genious_traits.b: "Удалить черту Гения боя"
-  combat_genious_traits.tooltip.add: "Это добавит черту Гений боя вашему персонажу."
-  combat_genious_traits.tooltip.remove: "Это удалит черту Гения боя у вашего персонажа."
+  combat_genius_traits.t: "Черты Гения боя"
+  combat_genius_traits.d: "Хотите добавить или удалить черту Гений боя?"
+  combat_genius_traits.a: "Добавить черту Гений боя"
+  combat_genius_traits.b: "Удалить черту Гения боя"
+  combat_genius_traits.tooltip.add: "Это добавит черту Гений боя вашему персонажу."
+  combat_genius_traits.tooltip.remove: "Это удалит черту Гения боя у вашего персонажа."
 
-  combat_genius_realm.t: "Владение Гения боя"
-  combat_genius_realm.d: "Хотите добавить или удалить модификатор 'Владение Гения боя'?"
-  combat_genius_realm.a: "Добавить модификатор 'Владение Гения боя'"
-  combat_genius_realm.b: "Удалить модификатор 'Владение Гения боя'"
-  combat_genius_realm.tooltip.add: "Это добавит модификатор 'Владение Гения боя' вашему владению."
-  combat_genius_realm.tooltip.remove: "Это удалит модификатор 'Владение Гения боя' у вашего владения."
+  county_combat_genius_modifier.t: "Владение Гения боя"
+  county_combat_genius_modifier.d: "Хотите добавить или удалить модификатор 'Владение Гения боя'?"
+  county_combat_genius_modifier.a: "Добавить модификатор 'Владение Гения боя'"
+  county_combat_genius_modifier.b: "Удалить модификатор 'Владение Гения боя'"
+  county_combat_genius_modifier.tooltip.add: "Это добавит модификатор 'Владение Гения боя' вашему владению."
+  county_combat_genius_modifier.tooltip.remove: "Это удалит модификатор 'Владение Гения боя' у вашего владения."
+  
