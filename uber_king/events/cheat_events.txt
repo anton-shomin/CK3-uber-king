@@ -2,24 +2,24 @@ namespace = cheats
 
 cheats.1 = {
     type = character_event
-    title = popadanets.t
-    desc = popadanets.d
+    title = blessed.t
+    desc = blessed.d
 
     option = {
-        name = popadanets.a
-        custom_tooltip = popadanets.tooltip.add
+        name = blessed.a
+        custom_tooltip = blessed.tooltip.add
         trigger = {
             NOR = {
-                has_trait = popadanets_core_traits
+                has_trait = blessed_core_traits
             }
         }
-        add_trait = popadanets_core_traits
+        add_trait = blessed_core_traits
     }
 
     option = {
-        name = popadanets.b
-        custom_tooltip = popadanets.tooltip.remove
-        remove_trait = popadanets_core_traits
+        name = blessed.b
+        custom_tooltip = blessed.tooltip.remove
+        remove_trait = blessed_core_traits
     }
 }
 

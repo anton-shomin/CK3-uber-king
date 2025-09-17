@@ -1,5 +1,5 @@
-popadanets_core_traits = {
-  desc = trait_popadanets_core_traits_desc
+blessed_core_traits = {
+  desc = trait_blessed_core_traits_desc
   is_positive = yes
   potential = {
     is_ai = no

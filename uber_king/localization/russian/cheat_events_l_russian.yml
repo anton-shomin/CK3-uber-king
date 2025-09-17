@@ -1,11 +1,11 @@
 ﻿l_russian:
-  # Localization for Popadanets traits (Provided Example)
-  popadanets.t: "Черты Попаданца"
-  popadanets.d: "Хотите добавить или удалить черты Попаданца?"
-  popadanets.a: "Добавить черты Попаданца"
-  popadanets.b: "Удалить черты Попаданца"
-  popadanets.tooltip.add: "Это добавит все черты Попаданца вашему персонажу."
-  popadanets.tooltip.remove: "Это удалит все черты Попаданца у вашего персонажа."
+  # Localization for blessed traits (Provided Example)
+  blessed.t: "Черты Попаданца"
+  blessed.d: "Хотите добавить или удалить черты Попаданца?"
+  blessed.a: "Добавить черты Попаданца"
+  blessed.b: "Удалить черты Попаданца"
+  blessed.tooltip.add: "Это добавит все черты Попаданца вашему персонажу."
+  blessed.tooltip.remove: "Это удалит все черты Попаданца у вашего персонажа."
 
   # Localization for Warfare Genius trait (Updated Keys)
   warfare_genius_traits.t: "Черты Военного гения"
@@ -29,4 +29,3 @@
   county_combat_genius_modifier.b: "Удалить модификатор 'Владение Гения боя'"
   county_combat_genius_modifier.tooltip.add: "Это добавит модификатор 'Владение Гения боя' вашему владению."
   county_combat_genius_modifier.tooltip.remove: "Это удалит модификатор 'Владение Гения боя' у вашего владения."
-  

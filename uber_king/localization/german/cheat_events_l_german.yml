@@ -1,11 +1,11 @@
 l_german:
-  # Localization for Popadanets traits
-  popadanets.t: "Fremdling aus einer anderen Welt Eigenschaften"
-  popadanets.d: "Möchten Sie die Eigenschaften Fremdling aus einer anderen Welt hinzufügen oder entfernen?"
-  popadanets.a: "Eigenschaften Fremdling aus einer anderen Welt hinzufügen"
-  popadanets.b: "Eigenschaften Fremdling aus einer anderen Welt entfernen"
-  popadanets.tooltip.add: "Dies fügt Ihrem Charakter alle Eigenschaften Fremdling aus einer anderen Welt hinzu."
-  popadanets.tooltip.remove: "Dies entfernt alle Eigenschaften Fremdling aus einer anderen Welt von Ihrem Charakter."
+  # Localization for blessed traits
+  blessed.t: "Fremdling aus einer anderen Welt Eigenschaften"
+  blessed.d: "Möchten Sie die Eigenschaften Fremdling aus einer anderen Welt hinzufügen oder entfernen?"
+  blessed.a: "Eigenschaften Fremdling aus einer anderen Welt hinzufügen"
+  blessed.b: "Eigenschaften Fremdling aus einer anderen Welt entfernen"
+  blessed.tooltip.add: "Dies fügt Ihrem Charakter alle Eigenschaften Fremdling aus einer anderen Welt hinzu."
+  blessed.tooltip.remove: "Dies entfernt alle Eigenschaften Fremdling aus einer anderen Welt von Ihrem Charakter."
 
   # Localization for Warfare Genius trait
   warfare_genius_traits.t: "Militärisches Genie Eigenschaft"

@@ -1,11 +1,11 @@
 l_french:
-  # Localization for Popadanets traits
-  popadanets.t: "Traits de l'Étranger d'un Autre Monde"
-  popadanets.d: "Voulez-vous ajouter ou supprimer les traits de l'Étranger d'un Autre Monde ?"
-  popadanets.a: "Ajouter les traits de l'Étranger d'un Autre Monde"
-  popadanets.b: "Supprimer les traits de l'Étranger d'un Autre Monde"
-  popadanets.tooltip.add: "Cela ajoutera tous les traits de l'Étranger d'un Autre Monde à votre personnage."
-  popadanets.tooltip.remove: "Cela supprimera tous les traits de l'Étranger d'un Autre Monde de votre personnage."
+  # Localization for blessed traits
+  blessed.t: "Traits de l'Étranger d'un Autre Monde"
+  blessed.d: "Voulez-vous ajouter ou supprimer les traits de l'Étranger d'un Autre Monde ?"
+  blessed.a: "Ajouter les traits de l'Étranger d'un Autre Monde"
+  blessed.b: "Supprimer les traits de l'Étranger d'un Autre Monde"
+  blessed.tooltip.add: "Cela ajoutera tous les traits de l'Étranger d'un Autre Monde à votre personnage."
+  blessed.tooltip.remove: "Cela supprimera tous les traits de l'Étranger d'un Autre Monde de votre personnage."
 
   # Localization for Warfare Genius trait
   warfare_genius_traits.t: "Trait de Génie militaire"

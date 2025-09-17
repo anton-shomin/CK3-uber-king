@@ -1,11 +1,11 @@
 l_spanish:
-  # Localization for Popadanets traits
-  popadanets.t: "Rasgos de Extraño de Otro Mundo"
-  popadanets.d: "¿Quieres añadir o eliminar los rasgos de Extraño de Otro Mundo?"
-  popadanets.a: "Añadir rasgos de Extraño de Otro Mundo"
-  popadanets.b: "Eliminar rasgos de Extraño de Otro Mundo"
-  popadanets.tooltip.add: "Esto añadirá todos los rasgos de Extraño de Otro Mundo a tu personaje."
-  popadanets.tooltip.remove: "Esto eliminará todos los rasgos de Extraño de Otro Mundo de tu personaje."
+  # Localization for blessed traits
+  blessed.t: "Rasgos de Extraño de Otro Mundo"
+  blessed.d: "¿Quieres añadir o eliminar los rasgos de Extraño de Otro Mundo?"
+  blessed.a: "Añadir rasgos de Extraño de Otro Mundo"
+  blessed.b: "Eliminar rasgos de Extraño de Otro Mundo"
+  blessed.tooltip.add: "Esto añadirá todos los rasgos de Extraño de Otro Mundo a tu personaje."
+  blessed.tooltip.remove: "Esto eliminará todos los rasgos de Extraño de Otro Mundo de tu personaje."
 
   # Localization for Warfare Genius trait
   warfare_genius_traits.t: "Rasgo de Genio militar"

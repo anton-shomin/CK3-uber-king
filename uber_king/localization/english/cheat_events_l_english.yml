@@ -1,11 +1,11 @@
 l_english:
-  # Localization for Popadanets traits
-  popadanets.t: "Otherworldly Stranger Traits"
-  popadanets.d: "Do you want to add or remove Otherworldly Stranger traits?"
-  popadanets.a: "Add Otherworldly Stranger traits"
-  popadanets.b: "Remove Otherworldly Stranger traits"
-  popadanets.tooltip.add: "This will add all Otherworldly Stranger traits to your character."
-  popadanets.tooltip.remove: "This will remove all Otherworldly Stranger traits from your character."
+  # Localization for blessed traits
+  blessed.t: "Otherworldly Stranger Traits"
+  blessed.d: "Do you want to add or remove Otherworldly Stranger traits?"
+  blessed.a: "Add Otherworldly Stranger traits"
+  blessed.b: "Remove Otherworldly Stranger traits"
+  blessed.tooltip.add: "This will add all Otherworldly Stranger traits to your character."
+  blessed.tooltip.remove: "This will remove all Otherworldly Stranger traits from your character."
 
   # Localization for Warfare Genius trait
   warfare_genius_traits.t: "Warfare Genius Trait"
